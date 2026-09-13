@@ -8,9 +8,10 @@
 
 .foto-derecha {
     padding-bottom: 50px;
-    padding-top: 100px;
-    margin-top: 80px;
+    padding-top: 10px;
+    margin-top: 20px;
 }
+
 /* Contenedor principal del footer */
 .bar-footer {
   background-color: #0d0d0d; /* Negro profundo nocturno */
