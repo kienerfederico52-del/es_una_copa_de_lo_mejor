@@ -5,3 +5,74 @@
 .subtitulo {
     text-align: center;
 }
+
+.foto-derecha {
+    padding-bottom: 50px;
+    padding-top: 100px;
+    margin-top: 80px;
+}
+/* Contenedor principal del footer */
+.bar-footer {
+  background-color: #0d0d0d; /* Negro profundo nocturno */
+  color: #e0e0e0; /* Blanco suave para que no canse la vista */
+  padding: 60px 20px 20px 20px; /* Buen padding para que respire el diseño */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Caja que envuelve las 3 columnas */
+.footer-contenedor {
+  display: flex;
+  flex-wrap: wrap; /* Se adapta a celulares automáticamente */
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto; /* Centra el bloque entero */
+}
+
+/* Cada una de las 3 columnas */
+.footer-columna {
+  flex: 1;
+  min-width: 280px; /* Espacio mínimo para que no se amontone en pantallas chicas */
+  margin-bottom: 30px;
+}
+
+/* Estilo especial para el nombre del bar */
+.bar-logo {
+  color: #d4af37; /* Color dorado elegante */
+  font-style: italic;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.bar-eslogan {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #aaa;
+}
+
+/* Títulos de las columnas de Horarios y Reservas */
+.footer-columna h3 {
+  color: #d4af37; /* Dorado para los títulos */
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-transform: uppercase; /* Letras mayúsculas sutiles */
+  letter-spacing: 1px; /* Separación de letras */
+}
+
+/* Textos dentro de horarios y reservas */
+.footer-columna p {
+  font-size: 15px;
+  margin-bottom: 12px;
+  color: #cccccc;
+}
+
+/* Línea divisoria y créditos finales */
+.footer-derechos {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #222222; /* Línea gris muy oscura y fina */
+  font-size: 13px;
+  color: #666666;
+}
+
+
